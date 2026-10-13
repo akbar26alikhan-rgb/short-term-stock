@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Candlestick 1 (Green up candle) -->
+    <path
+        android:fillColor="#00E676"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M34,42v28" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M31,48h6v16h-6z" />
+
+    <!-- Candlestick 2 (Red down candle) -->
+    <path
+        android:fillColor="#FF5252"
+        android:strokeColor="#FF5252"
+        android:strokeWidth="1.5"
+        android:pathData="M46,38v26" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M43,44h6v12h-6z" />
+
+    <!-- Candlestick 3 (Green breakout candle) -->
+    <path
+        android:fillColor="#00E676"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M58,30v28" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M55,34h6v18h-6z" />
+
+    <!-- Candlestick 4 (Tall green expansion candle) -->
+    <path
+        android:fillColor="#00E676"
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M70,24v30" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M67,27h6v20h-6z" />
+
+    <!-- Breakout ascending trendline and arrow in Gold -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M27,70L42,62L54,52L78,28" />
+    <!-- Arrowhead -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M78,28L68,28L78,38z" />
+
+    <!-- Base baseline -->
+    <path
+        android:strokeColor="#384C6E"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M26,76h56" />
+
+    <!-- AI badge dot -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M78,74a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+</vector>
